@@ -8,8 +8,8 @@
 ## Gravity and Light (ch. 1-28, tutorials as sections)
 - [x] Ch01 L01 Topology
 - [x] Ch01 tutorial 1: Topology (section of chapter 1; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
-- [ ] Ch02 L02 Topological Manifolds
-- [ ] Ch02 tutorial 2: Topological Manifolds (section of chapter 2; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
+- [x] Ch02 L02 Topological Manifolds
+- [x] Ch02 tutorial 2: Topological Manifolds (section of chapter 2; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
 - [ ] Ch03 L03 Multilinear Algebra
 - [ ] Ch03 tutorial 3: Multilinear Algebra (section of chapter 3; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
 - [ ] Ch04 L04 Differentiable Manifolds
@@ -65,5 +65,5 @@
 ## Decisioni e cose provate
 
 ## Log
-- 2026-11-22: ch01 (Topology + tutorial 1) written from the captions; transcripts.py now reads the shared C3 download.
+- 2026-11-22: ch01 (Topology + tutorial 1) and ch02 (Topological Manifolds + tutorial 2) written from the captions; transcripts.py now reads the shared C3 download.
 - 2026-11-21: repo creato
