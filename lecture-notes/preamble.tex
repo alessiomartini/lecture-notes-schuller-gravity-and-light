@@ -337,7 +337,7 @@
 \ExplSyntaxOff
 \input{videos}
 \makeatletter % consecutive tags may break between them, but never before punctuation
-\DeclareRobustCommand{\ts}[3]{\mbox{\footnotesize\sffamily\color{srccol}\tslink{#1}{#2}{#3}{\color{srccol}[$\blacktriangleright$\,L#1\,@\,#3]}}\@ifnextchar\ts{\allowbreak}{}}
+\DeclareRobustCommand{\ts}[3]{\mbox{\footnotesize\sffamily\color{srccol}\tslink{#1}{#2}{#3}{\color{srccol}[$\blacktriangleright$\,L#1\,@\,#3]}}\@ifnextchar\ts{\hskip 0.2em plus 0.6em\relax}{}}
 % link to a whole video (no time), e.g. in the Sources box: \seg{4}{2}{text}
 \newcommand{\seg}[3]{\tslink{#1}{#2}{0}{#3}}
 \makeatother
