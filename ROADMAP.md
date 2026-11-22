@@ -47,9 +47,9 @@
 - [ ] Ch24 L24 Perturbation Theory I
 - [ ] Ch25 L25 Perturbation Theory II
 - [ ] Ch25 tutorial 17: sheet only, no video (section of chapter 25; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
-- [ ] Ch26 L26 How quantizable matter gravitates
-- [ ] Ch27 L27 Sources of gravitational waves (lecturer: Schutz, not Schuller)
-- [ ] Ch28 L28 How to detect gravitational waves (lecturer: Schutz, not Schuller)
+- [x] Ch26 L26 How quantizable matter gravitates
+- [x] Ch27 L27 Sources of gravitational waves (lecturer: Schutz, not Schuller)
+- [x] Ch28 L28 How to detect gravitational waves (lecturer: Schutz, not Schuller)
 
 ## Constructive gravity (ch. 29-35)
 - [ ] Ch29 All spacetimes beyond Einstein (Obergurgl lectures), arXiv:1111.4824
@@ -77,7 +77,10 @@ ef{ch:c12}.
 - Ch17: lecturer confirmed as Werner (second half of lecture 16 after its break; the csv has "Werner?"). Mis-hearings of the captions in ch15-17: warsaw law = Poisson, Romanian = Riemannian, Gauss Binet/Bernay = Gauss-Bonnet, fin solid = Finsler, Marcus Savannah = Marcus Werner, Swat shield = Schwarzschild. Ch16: the stationary line element and the sign of dt were not legible on the captions and are reconstructed (`[?]`); Morse index slip of the lecturer corrected in ch17.
 - Ch21-22: ch21 was written without ch20 (early epoch, no transcript yet): its recall of the table of omega, n, a(t) will need a cross-check when ch20 exists. Ch22: the lecture's Kruskal/Penrose slip (the lecturer says the drawn picture is Penrose, not Kruskal) is kept as a coursenote; the Eddington-Finkelstein component g_rr = -(1+2m/r) was recomputed by hand (captions garbled). Reading boxes cite the arXiv ids given in the brief without checking titles/content.
 
+- Ch26-28 (2026-11-22): ch26 captions end mid-sentence at 1:39:05; formulas on slides (deformation algebra, PDE system coefficients) are only described, marked [?]. Ch27: the estimate h ~ 1e-21 for a NS binary at 100 Mpc is not what the one-line bound gives (~1e-19), flagged in a coursenote. Ch28: coefficients of the three term relation were on a slide, only the structure is written. Mis-hearings: Lio = LIGO, Gio = GEO600, Rola = Rezzolla, Sazan = Sesana. Transcripts still missing for the lectures of ch08, ch12, ch18-20, ch23-25 (only the tutorials C08-V02 and C23-V02 exist).
+
 ## Log
+- 2026-11-22: ch26 (How quantizable matter gravitates), ch27 and ch28 (Sources of / How to detect gravitational waves, lecturer Schutz) written from the captions.
 - 2026-11-22: ch21 (Cosmology - the late epoch + tutorial 15) and ch22 (Black Holes + tutorial 13) written from the captions. Ch21 stands alone (ch20 not written, no transcript yet). Lecture/tutor slips flagged in coursenotes: ch21 tutorial acceleration condition (omega < -1/3), ch22 EF metric arithmetic and tutorial redshift limit.
 - 2026-11-22: ch15 (Einstein Gravity), ch16 and ch17 (Optical Geometry I and II, lecturer Werner) written from the captions; tutorial 14 not written (sheet only, no video).
 - 2026-11-22: ch11 (Symmetry + tutorial 11), ch13 (Spacetime) and ch14 (Matter) written; ch12 skipped, no transcript yet (see Decisioni). Lecture slips flagged in coursenotes: ch13 spatial-velocity bound, ch14 Lorentz-force sign.
