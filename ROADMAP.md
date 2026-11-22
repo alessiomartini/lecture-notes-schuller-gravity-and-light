@@ -52,7 +52,7 @@
 - [x] Ch28 L28 How to detect gravitational waves (lecturer: Schutz, not Schuller)
 
 ## Constructive gravity (ch. 29-35)
-- [ ] Ch29 All spacetimes beyond Einstein (Obergurgl lectures), arXiv:1111.4824
+- [x] Ch29 All spacetimes beyond Einstein (Obergurgl lectures), arXiv:1111.4824
 - [ ] Ch30 How quantizable matter gravitates: a practitioner's guide, arXiv:1402.6548 (same title as lecture 26)
 - [ ] Ch31 Constructive gravity: foundations and applications (MG15 review), arXiv:2003.09726
 - [ ] Ch32 Constructive gravity, Causal Fermion Systems 2025 talk (YouTube GE9wGmhRBe4, 29:43)
@@ -80,6 +80,7 @@ ef{ch:c12}.
 - Ch26-28 (2026-11-22): ch26 captions end mid-sentence at 1:39:05; formulas on slides (deformation algebra, PDE system coefficients) are only described, marked [?]. Ch27: the estimate h ~ 1e-21 for a NS binary at 100 Mpc is not what the one-line bound gives (~1e-19), flagged in a coursenote. Ch28: coefficients of the three term relation were on a slide, only the structure is written. Mis-hearings: Lio = LIGO, Gio = GEO600, Rola = Rezzolla, Sazan = Sesana. Transcripts still missing for the lectures of ch08, ch12, ch18-20, ch23-25 (only the tutorials C08-V02 and C23-V02 exist).
 
 ## Log
+- 2026-11-22: ch29 (All spacetimes beyond Einstein, Obergurgl lectures, arXiv:1111.4824) written from the LaTeX source of the paper, all eight lectures; printed typos and inconsistent normalisations (Legendre map in Lecture VI, coefficients of Lecture VIII) flagged in coursenotes with [?]; paper figures not copied (one redrawn); no long exercises, so nothing added to appA.
 - 2026-11-22: ch26 (How quantizable matter gravitates), ch27 and ch28 (Sources of / How to detect gravitational waves, lecturer Schutz) written from the captions.
 - 2026-11-22: ch21 (Cosmology - the late epoch + tutorial 15) and ch22 (Black Holes + tutorial 13) written from the captions. Ch21 stands alone (ch20 not written, no transcript yet). Lecture/tutor slips flagged in coursenotes: ch21 tutorial acceleration condition (omega < -1/3), ch22 EF metric arithmetic and tutorial redshift limit.
 - 2026-11-22: ch15 (Einstein Gravity), ch16 and ch17 (Optical Geometry I and II, lecturer Werner) written from the captions; tutorial 14 not written (sheet only, no video).
