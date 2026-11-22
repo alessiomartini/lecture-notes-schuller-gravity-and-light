@@ -10,10 +10,10 @@
 - [x] Ch01 tutorial 1: Topology (section of chapter 1; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
 - [x] Ch02 L02 Topological Manifolds
 - [x] Ch02 tutorial 2: Topological Manifolds (section of chapter 2; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
-- [ ] Ch03 L03 Multilinear Algebra
-- [ ] Ch03 tutorial 3: Multilinear Algebra (section of chapter 3; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
-- [ ] Ch04 L04 Differentiable Manifolds
-- [ ] Ch04 tutorial 4: Differentiable Manifolds (section of chapter 4; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
+- [x] Ch03 L03 Multilinear Algebra
+- [x] Ch03 tutorial 3: Multilinear Algebra (section of chapter 3; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
+- [x] Ch04 L04 Differentiable Manifolds
+- [x] Ch04 tutorial 4: Differentiable Manifolds (section of chapter 4; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
 - [ ] Ch05 L05 Tangent Spaces
 - [ ] Ch05 tutorial 5: Tangent Spaces (section of chapter 5; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
 - [ ] Ch06 L06 Fields
@@ -65,5 +65,5 @@
 ## Decisioni e cose provate
 
 ## Log
-- 2026-11-22: ch01 (Topology + tutorial 1) and ch02 (Topological Manifolds + tutorial 2) written from the captions; transcripts.py now reads the shared C3 download.
+- 2026-11-22: ch01 (Topology + tutorial 1) and ch02 (Topological Manifolds + tutorial 2) and ch03 (Multilinear Algebra + tutorial 3) and ch04 (Differentiable Manifolds + tutorial 4) written from the captions; transcripts.py now reads the shared C3 download.
 - 2026-11-21: repo creato
