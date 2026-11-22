@@ -18,13 +18,13 @@
 - [x] Ch05 tutorial 5: Tangent Spaces (section of chapter 5; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
 - [x] Ch06 L06 Fields
 - [ ] Ch06 tutorial 6: Fields (section of chapter 6; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
-- [ ] Ch07 L07 Connections
-- [ ] Ch07 tutorial 7: Connections (section of chapter 7; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
+- [x] Ch07 L07 Connections
+- [x] Ch07 tutorial 7: Connections (section of chapter 7; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
 - [ ] Ch08 L08 Parallel Transport & Curvature
 - [ ] Ch08 tutorial 8: Parallel Transport Curvature (section of chapter 8; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
-- [ ] Ch09 L09 Newtonian spacetime is curved!
-- [ ] Ch10 L10 Metric Manifolds
-- [ ] Ch10 tutorial 9 & 10: Metric Manifolds (section of chapter 10; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
+- [x] Ch09 L09 Newtonian spacetime is curved!
+- [x] Ch10 L10 Metric Manifolds
+- [x] Ch10 tutorial 9 & 10: Metric Manifolds (section of chapter 10; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
 - [ ] Ch11 L11 Symmetry
 - [ ] Ch11 tutorial 11: Symmetries (section of chapter 11; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
 - [ ] Ch12 L12 Integration on manifolds
@@ -64,8 +64,10 @@
 
 ## Decisioni e cose provate
 - Tutorial 6 (C06-V02): no YouTube captions and no local audio, so section "Tutorial 6" of ch06 is a placeholder; write it after `tools/whisper.py` or captions exist.
+- Ch08 (Parallel transport & curvature) not written yet (only C08-V02 tutorial transcript exists, no lecture transcript); ch07, ch09 and ch10 refer to it as "not yet written".
+- Ch07: Schuller's index order slips and the sign in the normal-coordinates chart are flagged in coursenotes. Ch10: exercise 6 symmetries verification is in appA-exam.
 - Ch06 lecture error flagged in a coursenote: the topology {pi^-1(U)} on TM is not the one making the charts homeomorphisms.
 
 ## Log
-- 2026-11-22: ch01 (Topology + tutorial 1) and ch02 (Topological Manifolds + tutorial 2) and ch03 (Multilinear Algebra + tutorial 3) and ch04 (Differentiable Manifolds + tutorial 4) and ch05 (Tangent Spaces + tutorial 5) and ch06 (Fields, lecture only: tutorial 6 has no transcript, see ch06 section Tutorial 6) written from the captions; transcripts.py now reads the shared C3 download.
+- 2026-11-22: ch01 (Topology + tutorial 1) and ch02 (Topological Manifolds + tutorial 2) and ch03 (Multilinear Algebra + tutorial 3) and ch04 (Differentiable Manifolds + tutorial 4) and ch05 (Tangent Spaces + tutorial 5) and ch06 (Fields, lecture only: tutorial 6 has no transcript, see ch06 section Tutorial 6) written from the captions; ch07 (Connections + tutorial 7), ch09 (Newtonian spacetime is curved) and ch10 (Metric manifolds + tutorial 9 & 10) written from the captions (ch08 skipped: no transcript yet; 	s in preamble now has stretchable glue so long timestamp chains do not overflow); transcripts.py now reads the shared C3 download.
 - 2026-11-21: repo creato
