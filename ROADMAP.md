@@ -14,9 +14,9 @@
 - [x] Ch03 tutorial 3: Multilinear Algebra (section of chapter 3; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
 - [x] Ch04 L04 Differentiable Manifolds
 - [x] Ch04 tutorial 4: Differentiable Manifolds (section of chapter 4; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
-- [ ] Ch05 L05 Tangent Spaces
-- [ ] Ch05 tutorial 5: Tangent Spaces (section of chapter 5; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
-- [ ] Ch06 L06 Fields
+- [x] Ch05 L05 Tangent Spaces
+- [x] Ch05 tutorial 5: Tangent Spaces (section of chapter 5; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
+- [x] Ch06 L06 Fields
 - [ ] Ch06 tutorial 6: Fields (section of chapter 6; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
 - [ ] Ch07 L07 Connections
 - [ ] Ch07 tutorial 7: Connections (section of chapter 7; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
@@ -63,7 +63,9 @@
 ## Idee
 
 ## Decisioni e cose provate
+- Tutorial 6 (C06-V02): no YouTube captions and no local audio, so section "Tutorial 6" of ch06 is a placeholder; write it after `tools/whisper.py` or captions exist.
+- Ch06 lecture error flagged in a coursenote: the topology {pi^-1(U)} on TM is not the one making the charts homeomorphisms.
 
 ## Log
-- 2026-11-22: ch01 (Topology + tutorial 1) and ch02 (Topological Manifolds + tutorial 2) and ch03 (Multilinear Algebra + tutorial 3) and ch04 (Differentiable Manifolds + tutorial 4) written from the captions; transcripts.py now reads the shared C3 download.
+- 2026-11-22: ch01 (Topology + tutorial 1) and ch02 (Topological Manifolds + tutorial 2) and ch03 (Multilinear Algebra + tutorial 3) and ch04 (Differentiable Manifolds + tutorial 4) and ch05 (Tangent Spaces + tutorial 5) and ch06 (Fields, lecture only: tutorial 6 has no transcript, see ch06 section Tutorial 6) written from the captions; transcripts.py now reads the shared C3 download.
 - 2026-11-21: repo creato

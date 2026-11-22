@@ -23,5 +23,26 @@ $(a,b,c)\oplus(d,e,f):=(a+d,b+e,c+f)$ and $\lambda\odot(a,b,c):=(\lambda a,\lamb
 \end{enumerate}
 Hence $(\R^3,\oplus,\odot)$ is a real vector space (the tutor's summary: the triples come from $V$, the Greek letters from the underlying field $\R$) \ts{3}{2}{18:47}\ts{3}{2}{19:08}.
 
+\section*{Chapter 5: is there a well-defined sum of curves?}\label{app:c05-curves}
+
+From Tutorial~5, Exercise~5 (\cref{sec:t05-1}), paraphrased from the tutor's solution \ts{5}{2}{1:03:47}\ts{5}{2}{1:32:18}. On $\R^2$ with the standard topology consider the atlas $\mathcal A=\{(\R^2,x),(\R^2,y)\}$ with $x=\mathrm{id}$ and $y(a,b)=(a,be^a)$, and the curves $\gamma(\lambda)=(\lambda,1)$, $\delta(\lambda)=(1,\lambda)$.
+\begin{enumerate}
+  \item Is $\mathcal A$ a $C^\infty$-atlas? The inverses are $x^{-1}=\mathrm{id}$ and $y^{-1}(u,v)=(u,ve^{-u})$. The transition maps are $x^{-1}\circ y\colon(a,b)\mapsto(a,be^a)$ and $y^{-1}\circ x\colon(a,b)\mapsto(a,be^{-a})$: both components are products or quotients of smooth functions, and the exponential never vanishes, so the quotient is smooth. Yes, $\mathcal A$ is a $C^\infty$-atlas \ts{5}{2}{1:03:47}\ts{5}{2}{1:04:07}\ts{5}{2}{1:04:29}\ts{5}{2}{1:04:49}\ts{5}{2}{1:05:11}\ts{5}{2}{1:05:32}\ts{5}{2}{1:05:52}\ts{5}{2}{1:06:14}\ts{5}{2}{1:06:36}\ts{5}{2}{1:06:58}\ts{5}{2}{1:07:19}\ts{5}{2}{1:07:40}\ts{5}{2}{1:08:02}\ts{5}{2}{1:08:23}\ts{5}{2}{1:08:43}.
+  \item Can one give $\gamma+\delta$ without referring to a chart? No: the manifold is the space of positions and not a vector space, so one can neither add points nor curves; the vector space structure is on the chart images $\R^2$ \ts{5}{2}{1:09:03}\ts{5}{2}{1:09:25}\ts{5}{2}{1:09:46}\ts{5}{2}{1:10:07}\ts{5}{2}{1:10:28}.
+  \item Chart representatives and their intersection. In $x$: $x\circ\gamma(\lambda)=(\lambda,1)$ (a horizontal line at height $1$), $x\circ\delta(\lambda)=(1,\lambda)$ (a vertical line through $1$), meeting at $(1,1)$ for $\lambda_0=\lambda_1=1$. In $y$: $y\circ\gamma(\lambda)=(\lambda,e^\lambda)$ (the graph of the exponential), $y\circ\delta(\lambda)=(1,\lambda e)$ (a vertical line), meeting at $(1,e)$, again for $\lambda_0=\lambda_1=1$. The same curves look quite different in different charts
+        \ts{5}{2}{1:10:48}\ts{5}{2}{1:11:09}\ts{5}{2}{1:11:30}\ts{5}{2}{1:11:51}\ts{5}{2}{1:12:12}\ts{5}{2}{1:12:32}\ts{5}{2}{1:12:54}\ts{5}{2}{1:13:14}\ts{5}{2}{1:13:37}\ts{5}{2}{1:13:58}\ts{5}{2}{1:14:19}\ts{5}{2}{1:14:40}\ts{5}{2}{1:15:01}\ts{5}{2}{1:15:23}\ts{5}{2}{1:15:45}\ts{5}{2}{1:16:07}\ts{5}{2}{1:16:28}.
+  \item The sum of the curves in each chart, with the construction of the lecture ($\lambda_0=\lambda_1=1$):
+        \[
+          \sigma_x(\lambda)=x^{-1}\bigl(x\gamma(1+\lambda)+x\delta(1+\lambda)-x\gamma(1)\bigr)=(1+\lambda,\,1+\lambda),
+        \]
+        \[
+          \sigma_y(\lambda)=y^{-1}\bigl((1+\lambda,e^{1+\lambda})+(1,(1+\lambda)e)-(1,e)\bigr)=y^{-1}\bigl(1+\lambda,\,e^{1+\lambda}+\lambda e\bigr)=\bigl(1+\lambda,\;1+\lambda e^{-\lambda}\bigr).
+        \]
+        (The tutor first subtracts instead of adding and corrects himself.) The curve $\sigma_x$ is a straight line through $(0,0)$ and $(1,1)$; $\sigma_y$ is more complicated; both pass through $(1,1)$ at $\lambda=0$, but they do not coincide: the notion of a sum of curves, defined by adding down in the chart and lifting up, is not invariant under the choice of chart, hence not useful
+        \ts{5}{2}{1:16:52}\ts{5}{2}{1:17:13}\ts{5}{2}{1:17:33}\ts{5}{2}{1:17:54}\ts{5}{2}{1:18:15}\ts{5}{2}{1:18:35}\ts{5}{2}{1:18:56}\ts{5}{2}{1:19:16}\ts{5}{2}{1:19:47}\ts{5}{2}{1:20:07}\ts{5}{2}{1:20:28}\ts{5}{2}{1:20:49}\ts{5}{2}{1:21:11}\ts{5}{2}{1:21:33}\ts{5}{2}{1:21:54}\ts{5}{2}{1:22:16}\ts{5}{2}{1:22:38}\ts{5}{2}{1:22:59}\ts{5}{2}{1:23:22}\ts{5}{2}{1:23:44}\ts{5}{2}{1:24:04}\ts{5}{2}{1:24:24}\ts{5}{2}{1:24:46}\ts{5}{2}{1:25:07}\ts{5}{2}{1:25:31}\ts{5}{2}{1:25:52}\ts{5}{2}{1:26:15}\ts{5}{2}{1:26:37}.
+  \item Compare the velocities at the intersection point, with components in the \emph{same} chart $x$: $\dot\sigma^i_{x}(0)=(x^i\circ\sigma_x)'(0)=(1,1)$, and $\dot\sigma^i_{y,x}(0)=(x^i\circ\sigma_y)'(0)$ has first component $1$ and second component $\frac{\mathrm d}{\mathrm d\lambda}(1+\lambda e^{-\lambda})\big|_0=e^{-\lambda}(1-\lambda)\big|_0=1$. The components agree, and as the components with the basis give the whole vector, the velocities of $\sigma_x$ and $\sigma_y$ at $p$ coincide: the sum of curves is chart dependent, but the velocity of the sum is not
+        \ts{5}{2}{1:26:57}\ts{5}{2}{1:27:17}\ts{5}{2}{1:27:38}\ts{5}{2}{1:27:59}\ts{5}{2}{1:28:19}\ts{5}{2}{1:28:40}\ts{5}{2}{1:29:03}\ts{5}{2}{1:29:24}\ts{5}{2}{1:29:44}\ts{5}{2}{1:30:09}\ts{5}{2}{1:30:29}\ts{5}{2}{1:30:49}\ts{5}{2}{1:31:10}\ts{5}{2}{1:31:34}\ts{5}{2}{1:31:55}\ts{5}{2}{1:32:18}.
+\end{enumerate}
+
 \flushside
 \end{paracol}
