@@ -9,7 +9,7 @@ machinery, `build.py`, `scroll.py`. When in doubt, do as that repo does.
   `git status` before every commit.
 - One chapter per lecture (`chapters/chNN-<slug>.tex`), sections in the order of the lecture.
 - Main source = the lecture itself: `materials/transcripts/CXX-VYY.txt` (`[m:ss] text`, from YouTube
-  captions or local whisper). Paraphrase in clean English, fix mis-hearings. Mis-hearings found so far: (none yet, fill in as found).
+  captions or local whisper). Paraphrase in clean English, fix mis-hearings. Mis-hearings found so far: ch21-22: "meta type" = matter type, "Kaa/copper" = kappa, "Edington finlin" = Eddington-Finkelstein, "cuscal/crisal" = Kruskal, "Schwarz Shield/throttle" = Schwarzschild, "Julian/niik jini" = Giulini (lecturer's words, not sure).
   **Never drop content**: every definition, theorem, proof, example, remark, digression and student question goes
   in (side remarks in `aside`/`coursenote`, skippable material in `secondary`).
 - Formal style: Definition / Theorem / Proof as on the blackboard, proofs in full. Ambiguous blackboard notation:

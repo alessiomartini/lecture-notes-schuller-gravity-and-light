@@ -38,9 +38,9 @@
 - [ ] Ch18 L18 Canonical Formulation of GR I (lecturer: Giulini, not Schuller)
 - [ ] Ch19 L19 Canonical Formulation of GR II (lecturer: Giulini, not Schuller)
 - [ ] Ch20 L20 Cosmology - The early epoch
-- [ ] Ch21 L21 Cosmology - The late epoch
-- [ ] Ch21 tutorial 15: Cosmology (section of chapter 21; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
-- [ ] Ch22 L22 Black Holes
+- [x] Ch21 L21 Cosmology - The late epoch
+- [x] Ch21 tutorial 15: Cosmology (section of chapter 21; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
+- [x] Ch22 L22 Black Holes
 - [ ] Ch22 tutorial 13: Schwarzschild Spacetime (section of chapter 22; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
 - [ ] Ch23 L23 Penrose Diagrams
 - [ ] Ch23 tutorial 16: Diagrams (section of chapter 23; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
@@ -75,8 +75,10 @@ ef{ch:c12}.
 - Ch15 tutorial 14 (sheet only, no video): the section is a stub listing what lectures 14 and 15 announce for it; the sheet itself was not read, so the item stays open. Ch15: the sign and normalisation of the cosmological term and the figure `10^100`/`10^120` are flagged `[?]`; the caption of lecture 15 garbles which sign of Lambda Einstein wanted.
 
 - Ch17: lecturer confirmed as Werner (second half of lecture 16 after its break; the csv has "Werner?"). Mis-hearings of the captions in ch15-17: warsaw law = Poisson, Romanian = Riemannian, Gauss Binet/Bernay = Gauss-Bonnet, fin solid = Finsler, Marcus Savannah = Marcus Werner, Swat shield = Schwarzschild. Ch16: the stationary line element and the sign of dt were not legible on the captions and are reconstructed (`[?]`); Morse index slip of the lecturer corrected in ch17.
+- Ch21-22: ch21 was written without ch20 (early epoch, no transcript yet): its recall of the table of omega, n, a(t) will need a cross-check when ch20 exists. Ch22: the lecture's Kruskal/Penrose slip (the lecturer says the drawn picture is Penrose, not Kruskal) is kept as a coursenote; the Eddington-Finkelstein component g_rr = -(1+2m/r) was recomputed by hand (captions garbled). Reading boxes cite the arXiv ids given in the brief without checking titles/content.
 
 ## Log
+- 2026-11-22: ch21 (Cosmology - the late epoch + tutorial 15) and ch22 (Black Holes + tutorial 13) written from the captions. Ch21 stands alone (ch20 not written, no transcript yet). Lecture/tutor slips flagged in coursenotes: ch21 tutorial acceleration condition (omega < -1/3), ch22 EF metric arithmetic and tutorial redshift limit.
 - 2026-11-22: ch15 (Einstein Gravity), ch16 and ch17 (Optical Geometry I and II, lecturer Werner) written from the captions; tutorial 14 not written (sheet only, no video).
 - 2026-11-22: ch11 (Symmetry + tutorial 11), ch13 (Spacetime) and ch14 (Matter) written; ch12 skipped, no transcript yet (see Decisioni). Lecture slips flagged in coursenotes: ch13 spatial-velocity bound, ch14 Lorentz-force sign.
 - 2026-11-22: ch01 (Topology + tutorial 1) and ch02 (Topological Manifolds + tutorial 2) and ch03 (Multilinear Algebra + tutorial 3) and ch04 (Differentiable Manifolds + tutorial 4) and ch05 (Tangent Spaces + tutorial 5) and ch06 (Fields, lecture only: tutorial 6 has no transcript, see ch06 section Tutorial 6) written from the captions; ch07 (Connections + tutorial 7), ch09 (Newtonian spacetime is curved) and ch10 (Metric manifolds + tutorial 9 & 10) written from the captions (ch08 skipped: no transcript yet; 	s in preamble now has stretchable glue so long timestamp chains do not overflow); transcripts.py now reads the shared C3 download.
