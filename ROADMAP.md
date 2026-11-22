@@ -2,12 +2,12 @@
 
 ## Setup
 - [x] Repo skeleton (preamble, build, transcripts tool, empty main.tex)
-- [ ] Download captions / audio, run `tools/transcripts.py`
-- [ ] Pilot: first chapter written and compiled
+- [x] Download captions / audio, run `tools/transcripts.py` (reads the shared download `lecture-notes-schuller-courses/materials/raw/C3`)
+- [x] Pilot: first chapter written and compiled
 
 ## Gravity and Light (ch. 1-28, tutorials as sections)
-- [ ] Ch01 L01 Topology
-- [ ] Ch01 tutorial 1: Topology (section of chapter 1; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
+- [x] Ch01 L01 Topology
+- [x] Ch01 tutorial 1: Topology (section of chapter 1; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
 - [ ] Ch02 L02 Topological Manifolds
 - [ ] Ch02 tutorial 2: Topological Manifolds (section of chapter 2; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
 - [ ] Ch03 L03 Multilinear Algebra
@@ -65,4 +65,5 @@
 ## Decisioni e cose provate
 
 ## Log
+- 2026-11-22: ch01 (Topology + tutorial 1) written from the captions; transcripts.py now reads the shared C3 download.
 - 2026-11-21: repo creato
