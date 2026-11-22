@@ -31,7 +31,7 @@
 - [ ] Ch12 tutorial 12: Integration (section of chapter 12; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
 - [x] Ch13 L13 Spacetime
 - [x] Ch14 L14 Matter
-- [ ] Ch15 L15 Einstein Gravity
+- [x] Ch15 L15 Einstein Gravity
 - [ ] Ch15 tutorial 14: sheet only, no video (section of chapter 15; sheets: https://tales.mbivert.com/on-heraeus-winter-school-tutorials/)
 - [ ] Ch16 L16 Optical Geometry I (lecturer: Werner, not Schuller)
 - [ ] Ch17 L17 Optical Geometry II (lecturer: Werner, not Schuller)
@@ -68,10 +68,14 @@
 - Ch07: Schuller's index order slips and the sign in the normal-coordinates chart are flagged in coursenotes. Ch10: exercise 6 symmetries verification is in appA-exam.
 - Ch06 lecture error flagged in a coursenote: the topology {pi^-1(U)} on TM is not the one making the charts homeomorphisms.
 
-- Ch12 (Integration on manifolds) not written: no transcript for C12-V01 yet (whisper still running, `tools/transcripts.py` lists none); write it between ch11 and ch13, ch11 refers to it as chapter~ef{ch:c12}.
+- Ch12 (Integration on manifolds) not written: no transcript for C12-V01 yet (whisper still running, `tools/transcripts.py` lists none); write it between ch11 and ch13, ch11 refers to it as chapter~
+ef{ch:c12}.
 - Ch11 tutorial: the sheet-11 embedding of S^2 was reconstructed from the metric components (not read); ch13: the lecture's bound "spatial velocity length < 1" needs the normalisation by epsilon^0(v), flagged; ch14: signs of the Lorentz force and of T_ab (Maxwell) not verified, as in the lecture.
 
+- Ch15 tutorial 14 (sheet only, no video): the section is a stub listing what lectures 14 and 15 announce for it; the sheet itself was not read, so the item stays open. Ch15: the sign and normalisation of the cosmological term and the figure `10^100`/`10^120` are flagged `[?]`; the caption of lecture 15 garbles which sign of Lambda Einstein wanted.
+
 ## Log
+- 2026-11-22: ch15 (Einstein Gravity: Hilbert's variation in full, Einstein equation, trace-reversed form, cosmological constant) written from the captions; tutorial 14 not written (sheet only, no video).
 - 2026-11-22: ch11 (Symmetry + tutorial 11), ch13 (Spacetime) and ch14 (Matter) written; ch12 skipped, no transcript yet (see Decisioni). Lecture slips flagged in coursenotes: ch13 spatial-velocity bound, ch14 Lorentz-force sign.
 - 2026-11-22: ch01 (Topology + tutorial 1) and ch02 (Topological Manifolds + tutorial 2) and ch03 (Multilinear Algebra + tutorial 3) and ch04 (Differentiable Manifolds + tutorial 4) and ch05 (Tangent Spaces + tutorial 5) and ch06 (Fields, lecture only: tutorial 6 has no transcript, see ch06 section Tutorial 6) written from the captions; ch07 (Connections + tutorial 7), ch09 (Newtonian spacetime is curved) and ch10 (Metric manifolds + tutorial 9 & 10) written from the captions (ch08 skipped: no transcript yet; 	s in preamble now has stretchable glue so long timestamp chains do not overflow); transcripts.py now reads the shared C3 download.
 - 2026-11-21: repo creato
