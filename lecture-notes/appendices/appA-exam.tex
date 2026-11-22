@@ -7,5 +7,21 @@ up by them. Use this appendix as a second reading or, once the course is finishe
 self-test: retrieval spaced weeks after first study is among the best-supported ways to make material stick
 (Cepeda et al.\ 2006; Adesope et al.\ 2017).
 
+\section*{Chapter 3: $\R^3$ is a vector space}
+
+From Tutorial~3, Exercise~2 (\cref{sec:t03-1}), paraphrased from the tutor's solution \ts{3}{2}{7:24}\ts{3}{2}{18:47}. On $V=\R^3$ let
+$(a,b,c)\oplus(d,e,f):=(a+d,b+e,c+f)$ and $\lambda\odot(a,b,c):=(\lambda a,\lambda b,\lambda c)$ (the circles distinguish the new operations from those in the entries). Check the eight axioms of \cref{def:c03-vs}:
+\begin{enumerate}
+  \item Commutativity of $\oplus$: $(a,b,c)\oplus(d,e,f)=(a+d,b+e,c+f)=(d+a,e+b,f+c)=(d,e,f)\oplus(a,b,c)$, since addition in $\R$ is commutative \ts{3}{2}{7:44}\ts{3}{2}{8:08}\ts{3}{2}{8:29}\ts{3}{2}{8:50}.
+  \item Associativity of $\oplus$: $\bigl((a,b,c)\oplus(d,e,f)\bigr)\oplus(g,h,i)=((a+d)+g,(b+e)+h,(c+f)+i)$, and since $+$ on $\R$ is associative one can move the brackets and read this backwards as $(a,b,c)\oplus\bigl((d,e,f)\oplus(g,h,i)\bigr)$ \ts{3}{2}{9:11}\ts{3}{2}{9:33}\ts{3}{2}{9:55}\ts{3}{2}{10:16}\ts{3}{2}{10:37}.
+  \item Neutral element: $n:=(0,0,0)$; then $(a,b,c)\oplus n=(a+0,b+0,c+0)=(a,b,c)$ \ts{3}{2}{11:00}\ts{3}{2}{11:21}\ts{3}{2}{11:41}.
+  \item Inverse: for $A=(a,b,c)$ take $A^{-1}:=(-a,-b,-c)$; then $A\oplus A^{-1}=(a-a,b-b,c-c)=(0,0,0)=n$ \ts{3}{2}{11:41}\ts{3}{2}{12:02}\ts{3}{2}{12:23}\ts{3}{2}{12:44}\ts{3}{2}{13:05}.
+  \item Associativity of $\odot$: $\lambda\odot(\mu\odot(a,b,c))=(\lambda(\mu a),\lambda(\mu b),\lambda(\mu c))=((\lambda\mu)a,(\lambda\mu)b,(\lambda\mu)c)=(\lambda\mu)\odot(a,b,c)$, by associativity of multiplication in $\R$ \ts{3}{2}{13:05}\ts{3}{2}{13:26}\ts{3}{2}{13:49}\ts{3}{2}{14:09}\ts{3}{2}{14:32}\ts{3}{2}{14:54}.
+  \item First distributive law: $(\lambda+\mu)\odot(a,b,c)=((\lambda+\mu)a,(\lambda+\mu)b,(\lambda+\mu)c)=(\lambda a+\mu a,\dots)=\lambda\odot(a,b,c)\oplus\mu\odot(a,b,c)$ (the $+$ in $\lambda+\mu$ is that of $\R$) \ts{3}{2}{14:54}\ts{3}{2}{15:16}\ts{3}{2}{15:37}\ts{3}{2}{15:58}\ts{3}{2}{16:20}.
+  \item Second distributive law: $\lambda\odot\bigl((a,b,c)\oplus(d,e,f)\bigr)=(\lambda(a+d),\lambda(b+e),\lambda(c+f))=(\lambda a+\lambda d,\dots)=\lambda\odot(a,b,c)\oplus\lambda\odot(d,e,f)$ \ts{3}{2}{16:41}\ts{3}{2}{17:02}\ts{3}{2}{17:23}.
+  \item Unit: $1\odot(a,b,c)=(1a,1b,1c)=(a,b,c)$, as $1$ is the neutral element of multiplication in $\R$ \ts{3}{2}{17:46}\ts{3}{2}{18:07}\ts{3}{2}{18:27}\ts{3}{2}{18:47}.
+\end{enumerate}
+Hence $(\R^3,\oplus,\odot)$ is a real vector space (the tutor's summary: the triples come from $V$, the Greek letters from the underlying field $\R$) \ts{3}{2}{18:47}\ts{3}{2}{19:08}.
+
 \flushside
 \end{paracol}
